@@ -1,0 +1,3 @@
+-- Deprecated stub. Use the versioned migration instead:
+--   supabase/migrations/20261024120000_init.sql
+-- See supabase/README.md for apply instructions.
