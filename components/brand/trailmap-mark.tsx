@@ -12,24 +12,24 @@ export function TrailmapMark({ className }: TrailmapMarkProps) {
       aria-hidden="true"
       className={cn("shrink-0", className)}
     >
-      <rect width="32" height="32" rx="9" fill="#ffffff" />
       <path
         d="M6.5 21.5c3.4-2.3 6.4-2.3 9.2 0 2.8 2.3 5.8 2.3 9.3 0"
-        stroke="#b7d0c2"
+        stroke="#ffffff"
+        strokeOpacity="0.72"
         strokeWidth="1.7"
         strokeLinecap="round"
         fill="none"
       />
       <path
         d="M6.5 25.4c3.4-2.3 6.4-2.3 9.2 0 2.8 2.3 5.8 2.3 9.3 0"
-        stroke="#1f5c40"
+        stroke="#ffffff"
         strokeWidth="1.7"
         strokeLinecap="round"
         fill="none"
       />
       <path
         d="M16 4.6c-3.2 0-5.5 2.4-5.5 5.35 0 3.95 5.5 9.7 5.5 9.7s5.5-5.75 5.5-9.7c0-2.95-2.3-5.35-5.5-5.35z"
-        fill="#143528"
+        fill="#ffffff"
       />
       <circle cx="16" cy="9.85" r="1.9" fill="#e08a4f" />
     </svg>
