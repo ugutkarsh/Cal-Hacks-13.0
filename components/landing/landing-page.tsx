@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { MapPin, Users, Sparkles, ArrowRight, Mail, MapPinned } from "lucide-react";
+import { TrailmapMark } from "@/components/brand/trailmap-mark";
 import { AuthPanel } from "@/components/profile/auth-panel";
 import { Button } from "@/components/ui/button";
 
@@ -54,7 +55,8 @@ export function LandingPage() {
       <div className="relative z-10">
         <header className="absolute inset-x-0 top-0 z-40">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5 sm:px-8">
-            <p className="font-[family-name:var(--font-display)] text-xl font-bold tracking-tight text-white sm:text-2xl">
+            <p className="inline-flex items-center gap-2.5 font-[family-name:var(--font-display)] text-xl font-bold tracking-tight text-white sm:text-2xl">
+              <TrailmapMark className="h-8 w-8 sm:h-9 sm:w-9" />
               Trailmap
             </p>
             <div className="flex items-center gap-2">

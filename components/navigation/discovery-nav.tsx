@@ -13,6 +13,7 @@ import {
   LoaderCircle,
   CalendarDays,
 } from "lucide-react";
+import { TrailmapMark } from "@/components/brand/trailmap-mark";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
@@ -120,11 +121,12 @@ export function DiscoveryNav({
           }}
         >
           <div className="flex items-center justify-between gap-3">
-            <div>
+            <div className="min-w-0">
               <Link
                 href="/"
-                className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-white hover:opacity-90"
+                className="inline-flex items-center gap-2 font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-white hover:opacity-90"
               >
+                <TrailmapMark className="h-8 w-8" />
                 Trailmap
               </Link>
               <p className="text-xs text-white/80">
